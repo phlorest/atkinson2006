@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/D-PLACE/dplace-tree-atkinson2006",
             "rdf:type": "prov:Entity",
-            "dc:created": "6fa9dd1",
+            "dc:created": "58d3645",
             "dc:title": "Repository"
         },
         {
@@ -124,6 +124,11 @@
                         "name": "Name"
                     },
                     {
+                        "dc:description": "The newick representation of the tree, labeled with identifiers as described in LanguageTable, is stored in the TREES block of the Nexus file specified here. (See https://en.wikipedia.org/wiki/Nexus_file)",
+                        "propertyUrl": "http://purl.org/dc/terms/relation",
+                        "name": "Nexus_File"
+                    },
+                    {
                         "dc:description": "Whether the tree is rooted (true) or unrooted (false) (or no info is available (null))",
                         "datatype": "boolean",
                         "name": "rooted"
@@ -141,9 +146,11 @@
                         "name": "method"
                     },
                     {
-                        "dc:description": "Newick representation of the tree, labeled with identifiers as described in the LanguageTable",
-                        "dc:format": "text/plain+newick",
-                        "name": "newick"
+                        "datatype": {
+                            "base": "string",
+                            "format": "millenia|decades"
+                        },
+                        "name": "scaling"
                     },
                     {
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",

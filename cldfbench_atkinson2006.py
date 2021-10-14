@@ -6,6 +6,11 @@ import nexus
 from cldfbench import Dataset as BaseDataset, Metadata
 
 
+def format_tree(tree, default_label='tree'):
+    rooting = '' if tree.rooted is None else '[&{}] '.format('R' if tree.rooted else 'U')
+    return 'tree {} = {}{}'.format(tree.name or default_label, rooting, tree.newick_string)
+
+
 @attr.s
 class PhlorestMetadata(Metadata):
     name = attr.ib(default=None)
@@ -30,7 +35,6 @@ class Dataset(BaseDataset):
 
     def cmd_makecldf(self, args):
         #shutil.copy(self.raw_dir / 'MayanSwd100_3_12_05bn30chrono.t', self.cldf_dir / 'summary.trees')
-        shutil.copy(self.raw_dir / 'source.bib', self.cldf_dir / 'sources.bib')
         args.writer.cldf.add_component('LanguageTable')
         args.writer.cldf.add_table(
             'trees.csv',
@@ -41,6 +45,14 @@ class Dataset(BaseDataset):
             {
                 'name': 'Name',
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#name',
+            },
+            {
+                'name': 'Nexus_File',
+                'dc:description': 'The newick representation of the tree, labeled with identifiers '
+                                  'as described in LanguageTable, is stored in the TREES '
+                                  'block of the Nexus file specified here. '
+                                  '(See https://en.wikipedia.org/wiki/Nexus_file)',
+                'propertyUrl': 'http://purl.org/dc/terms/relation',
             },
             {
                 'name': 'rooted',  # bool or None
@@ -60,10 +72,8 @@ class Dataset(BaseDataset):
                 'dc:description': 'Specifies the method that was used to create the tree'
             },
             {
-                'name': 'newick',
-                'dc:format': 'text/plain+newick',
-                'dc:description': 'Newick representation of the tree, labeled with identifiers '
-                                  'as described in the LanguageTable',
+                'name': 'scaling',
+                'datatype': {'base': 'string', 'format': 'millenia|decades'},
             },
             {
                 'name': 'Source',
@@ -71,12 +81,17 @@ class Dataset(BaseDataset):
                 'propertyUrl': 'http://cldf.clld.org/v1.0/terms.rdf#source',
             },
         )
+        shutil.copy(self.raw_dir / 'source.bib', self.cldf_dir / 'sources.bib')
+
+        #
+        # FIXME: taxa.csv to LanguageTable could be method on pyphlorest.Phylogeny
+        #
         lids = set()
         glangs = {lg.id: lg for lg in args.glottolog.api.languoids()}
+        #
+        # FIXME: add metadata from Glottolog, put in dplace-tree-specific Dataset base class.
+        #
         for row in self.etc_dir.read_csv('taxa.csv', dicts=True):
-            #
-            # FIXME: add metadata from Glottolog, put in dplace-tree-specific Dataset base class.
-            #
             lids.add(row['taxon'])
             glang = glangs[row['glottocode']]
             args.writer.objects['LanguageTable'].append(dict(
@@ -87,6 +102,9 @@ class Dataset(BaseDataset):
                 Longitude=glang.longitude,
             ))
 
+        #
+        # FIXME: `add_tree` method on pyphlorest.Phylogeny
+        #
         summary = nexus.NexusReader(self.raw_dir / 'MayanSwd100_3_12_05bn30chrono.t')
         assert len(summary.trees.trees) == 1
         summary = summary.trees.trees[0]
@@ -107,12 +125,19 @@ class Dataset(BaseDataset):
         if lids:
             args.log.error('extra taxa specified in LanguageTable: {}'.format(lids))
 
+        nex = nexus.NexusWriter()
+        #nex.add_comment('')
+        nex.trees.append(format_tree(summary))
+        nex.write_to_file(self.cldf_dir / 'summary.nex')
+
         args.writer.objects['trees.csv'].append(dict(
             ID='summary',
             Name=summary.name,
+            Nexus_File='summary.nex',
             rooted=summary.rooted,
             type='summary',
             method='Consensus tree from a bayesian analysis',
-            newick=summary.newick_string,
+            scaling=self.metadata.scaling,
+            #newick=summary.newick_string,
             Source=['atkinson2006'],
         ))
