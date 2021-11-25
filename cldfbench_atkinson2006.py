@@ -1,7 +1,6 @@
 import pathlib
 
-from pydplace import phlorest
-
+import phlorest
 
 class Dataset(phlorest.Dataset):
     dir = pathlib.Path(__file__).parent
