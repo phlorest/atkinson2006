@@ -21,7 +21,7 @@
         {
             "rdf:about": "https://github.com/phlorest/atkinson2006",
             "rdf:type": "prov:Entity",
-            "dc:created": "778ae4f",
+            "dc:created": "463c014",
             "dc:title": "Repository"
         },
         {
@@ -34,7 +34,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.9.6"
+            "dc:description": "3.8.10"
         },
         {
             "dc:title": "python-packages",

@@ -9,6 +9,7 @@ class Dataset(phlorest.Dataset):
 
     def cmd_makecldf(self, args):
         self.init(args)
-        stree = self.raw_dir / 'MayanSwd100_3_12_05bn30chrono.t'
-        with self.nexus_summary() as nex:
-            self.add_tree(args, self.read_tree(stree), nex, 'summary')
+        args.writer.add_summary(
+            self.raw_dir.read_tree('MayanSwd100_3_12_05bn30chrono.t'),
+            self.metadata,
+            args.log)
