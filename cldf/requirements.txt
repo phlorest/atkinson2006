@@ -20,7 +20,7 @@ newick==1.3.1
 numpy==1.21.1
 openpyxl==3.0.7
 packaging==20.3
--e git+https://github.com/phlorest/phlorest@e3e6e7076be46b96a389f1fba35c0526487e26f4#egg=phlorest
+-e git+https://github.com/phlorest/phlorest@17c78bc0bc1f0d5f3527c85f9310ab6e6e3adfbb#egg=phlorest
 pkg_resources==0.0.0
 pluggy==0.13.1
 purl==1.6
@@ -34,7 +34,7 @@ pyglottolog==3.6.0
 PyQt5==5.15.5
 pytest==6.2.4
 python-dateutil==2.8.2
-python-nexus==2.4.0
+python-nexus==2.5.1
 requests==2.22.0
 rfc3986==1.5.0
 six==1.14.0

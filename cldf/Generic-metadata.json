@@ -13,7 +13,7 @@
     "dc:subject": {
         "family": "Mayan [maya1287]",
         "analysis": "bayesian",
-        "scaling": "years (rescaled from millennia)"
+        "scaling": "millennia"
     },
     "dc:title": "Phlorest phylogeny derived from Atkinson 2006 'Mayan (Atkinson 2006)'",
     "dcat:accessURL": "https://github.com/phlorest/atkinson2006",
@@ -21,7 +21,7 @@
         {
             "rdf:about": "https://github.com/phlorest/atkinson2006",
             "rdf:type": "prov:Entity",
-            "dc:created": "463c014",
+            "dc:created": "a311b3d",
             "dc:title": "Repository"
         },
         {

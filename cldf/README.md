@@ -1,6 +1,6 @@
 <a name="ds-genericmetadatajson"> </a>
 
-# Generic Mayan (Atkinson 2006)
+# Generic Phlorest phylogeny derived from Atkinson 2006 'Mayan (Atkinson 2006)'
 
 **CLDF Metadata**: [Generic-metadata.json](./Generic-metadata.json)
 
@@ -10,11 +10,11 @@ property | value
  --- | ---
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Atkinson, Quentin D. 2006. From Species to Languages: a phylogenetic approach to human prehistory. PhD Thesis, University of Auckland, New Zealand.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Generic](http://cldf.clld.org/v1.0/terms.rdf#Generic)
-[dc:creator](http://purl.org/dc/terms/creator) | Atkinson
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://researchspace.auckland.ac.nz/handle/2292/86
-[dc:subject](http://purl.org/dc/terms/subject) | <dl><dt>scaling</dt><dd>millennia</dd><dt>analysis</dt><dd>bayesian</dd><dt>family</dt><dd>maya1287</dd></dl>
+[dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/2.0/
+[dc:subject](http://purl.org/dc/terms/subject) | <dl><dt>family</dt><dd>Mayan [maya1287]</dd><dt>analysis</dt><dd>bayesian</dd><dt>scaling</dt><dd>millennia</dd></dl>
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/phlorest/atkinson2006
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/phlorest/atkinson2006/tree/1731a27">phlorest/atkinson2006 1731a27</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.4">Glottolog v4.4</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/phlorest/atkinson2006/tree/a311b3d">phlorest/atkinson2006 a311b3d</a></li><li><a href="https://github.com/glottolog/glottolog/tree/v4.4">Glottolog v4.4</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.10</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | atkinson2006
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -27,7 +27,7 @@ The LanguageTable lists the taxa, i.e. the leafs of the phylogeny, mapped to lan
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 30
+[dc:extent](http://purl.org/dc/terms/extent) | 44
 
 
 ### Columns
