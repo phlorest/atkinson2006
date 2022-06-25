@@ -11,30 +11,30 @@
     "dc:license": "https://creativecommons.org/licenses/by/2.0/",
     "dc:source": "sources.bib",
     "dc:subject": {
-        "family": "Mayan [maya1287]",
+        "family": "Mayan",
         "analysis": "bayesian",
         "scaling": "millennia"
     },
-    "dc:title": "Phlorest phylogeny derived from Atkinson 2006 'Mayan (Atkinson 2006)'",
+    "dc:title": "Phlorest phylogeny derived from Atkinson2006'Mayan (Atkinson 2006)'",
     "dcat:accessURL": "https://github.com/phlorest/atkinson2006",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/phlorest/atkinson2006",
             "rdf:type": "prov:Entity",
-            "dc:created": "a311b3d",
+            "dc:created": "119a61c",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.4",
+            "dc:created": "v4.5",
             "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.10"
+            "dc:description": "3.9.6"
         },
         {
             "dc:title": "python-packages",
