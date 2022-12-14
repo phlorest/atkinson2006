@@ -1,5 +1,7 @@
 # Phlorest phylogeny derived from Atkinson 2006 'Mayan (Atkinson 2006)'
 
+[![CLDF validation](https://github.com/phlorest/atkinson2006/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/atkinson2006/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
