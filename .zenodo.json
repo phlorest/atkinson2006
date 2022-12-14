@@ -1,5 +1,5 @@
 {
-    "title": null,
+    "title": "Phlorest phylogeny derived from Atkinson 2006 'Mayan (Atkinson 2006)'",
     "access_right": "open",
     "keywords": [
         "cldf:Generic",
@@ -10,6 +10,17 @@
     "communities": [
         {
             "identifier": "dplace"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Quentin D. Atkinson"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Simon J. Greenhill",
+            "type": "Other"
         }
     ]
 }
