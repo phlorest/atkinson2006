@@ -6,16 +6,18 @@ certifi==2022.12.7
 cffi==1.15.1
 chardet==5.1.0
 cldfbench==1.13.0
--e git+https://github.com/phlorest/atkinson2006.git@c0014cd9f01866bbe92eb41b672c603b269de0d3#egg=cldfbench_atkinson2006
+-e git+https://github.com/phlorest/atkinson2006.git@a75ad63ee1198c72e8402d427bc6f57e6d193f03#egg=cldfbench_atkinson2006
+-e git+https://github.com/phlorest/michael_et_al2015@c68f51edd9a7f23e65618dd84163011c9e038f61#egg=cldfbench_michael_et_al2015
 cldfcatalog==1.5.1
 cldfviz==0.10.0
 cldfzenodo==1.1.0
 clldutils==3.19.0
 colorama==0.4.6
 colorlog==6.7.0
--e git+https://github.com/dlce-eva/commonnexus@c7c1f12ace03face572b7ea0afbce04ada97eca3#egg=commonnexus
+commonnexus==1.4.0
 csvw==3.1.3
 cycler==0.11.0
+ete3==3.1.3
 exceptiongroup==1.1.0
 gitdb==4.0.10
 greenlet==2.0.1
@@ -35,14 +37,14 @@ multipledispatch==0.6.0
 nameparser==1.1.2
 newick==1.9.0
 numpy==1.24.1
-packaging==23.0
--e git+https://github.com/phlorest/phlorest@ecea721c8f2ad598c6fa7e2a6c089dd113d59601#egg=phlorest
-pluggy==1.0.0
+packaging==23.1
+phlorest==1.0.0
+pluggy==1.2.0
 purl==1.6
 pybtex==0.24.0
 pycldf==1.34.1
 pycountry==22.3.5
-pyglottolog==3.11.0
+pyglottolog==3.12.0
 pylatexenc==2.10
 pyparsing==3.0.9
 pyrsistent==0.19.3
