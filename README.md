@@ -14,7 +14,7 @@ If you use these data please cite
 
 This dataset is licensed under a https://creativecommons.org/licenses/by/2.0/ license
 
-Available online at https://researchspace.auckland.ac.nz/handle/2292/86
+Available online at http://hdl.handle.net/2292/86
 
 
 ## CLDF Datasets
