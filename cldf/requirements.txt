@@ -6,7 +6,7 @@ certifi==2022.12.7
 cffi==1.15.1
 chardet==5.1.0
 cldfbench==1.13.0
--e git+https://github.com/phlorest/atkinson2006.git@a75ad63ee1198c72e8402d427bc6f57e6d193f03#egg=cldfbench_atkinson2006
+-e git+https://github.com/phlorest/atkinson2006.git@d2d7bd7b193b7b8c9dd1f73a6e49adaeeb2dfbf5#egg=cldfbench_atkinson2006
 -e git+https://github.com/phlorest/michael_et_al2015@c68f51edd9a7f23e65618dd84163011c9e038f61#egg=cldfbench_michael_et_al2015
 cldfcatalog==1.5.1
 cldfviz==0.10.0
