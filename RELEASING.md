@@ -6,7 +6,7 @@
   ```
 - Re-create the CLDF dataset:
   ```shell
-  cldfbench makecldf --glottolog-version v4.7 cldfbench_atkinson2006.py --with-zenodo --with-cldfreadme
+  cldfbench makecldf --glottolog-version v4.8 cldfbench_atkinson2006.py --with-zenodo --with-cldfreadme
   ```
 - Make sure the CLDF is valid:
   ```shell
