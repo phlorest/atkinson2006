@@ -15,13 +15,13 @@
         "analysis": "bayesian",
         "scaling": "millennia"
     },
-    "dc:title": "Phlorest phylogeny derived from Atkinson 2006 'Mayan (Atkinson 2006)'",
+    "dc:title": "Phlorest phylogeny derived from Atkinson 2006 'From Species to Languages: a phylogenetic approach to human prehistory'",
     "dcat:accessURL": "https://github.com/phlorest/atkinson2006",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/phlorest/atkinson2006",
             "rdf:type": "prov:Entity",
-            "dc:created": "736f9ed",
+            "dc:created": "d0e5048",
             "dc:title": "Repository"
         },
         {

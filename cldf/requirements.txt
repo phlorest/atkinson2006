@@ -6,8 +6,8 @@ certifi==2022.12.7
 cffi==1.15.1
 chardet==5.1.0
 cldfbench==1.13.0
--e git+https://github.com/phlorest/atkinson2006.git@736f9ed8dfbef430b8461445735a155cf29663e3#egg=cldfbench_atkinson2006
--e git+https://github.com/phlorest/michael_et_al2015@c68f51edd9a7f23e65618dd84163011c9e038f61#egg=cldfbench_michael_et_al2015
+-e git+https://github.com/phlorest/atkinson2006.git@d0e5048954a747e7b5274fd424f3ca2b3ac7b44f#egg=cldfbench_atkinson2006
+-e git+https://github.com/phlorest/michael_et_al2015@b481dd8011cafaac72339694a065b37bdd683646#egg=cldfbench_michael_et_al2015
 cldfcatalog==1.5.1
 cldfviz==0.10.0
 cldfzenodo==1.1.0
@@ -38,7 +38,7 @@ nameparser==1.1.2
 newick==1.9.0
 numpy==1.24.1
 packaging==23.1
-phlorest==1.1.0
+-e git+https://github.com/phlorest/phlorest@b62b8b6447f7fe20c97780bcae349a6f7fd8af48#egg=phlorest
 pluggy==1.2.0
 purl==1.6
 pybtex==0.24.0
