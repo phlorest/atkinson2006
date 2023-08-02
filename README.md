@@ -1,4 +1,4 @@
-# Phlorest phylogeny derived from Atkinson 2006 'Mayan (Atkinson 2006)'
+# Phlorest phylogeny derived from Atkinson 2006 'From Species to Languages: a phylogenetic approach to human prehistory'
 
 [![CLDF validation](https://github.com/phlorest/atkinson2006/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/atkinson2006/actions?query=workflow%3ACLDF-validation)
 
@@ -11,10 +11,12 @@ If you use these data please cite
 
 ## Description
 
+A [Phlorest phylogeny](https://github.com/phlorest) of the Mayan language family computed from a bayesian analysis scaled by millennia.
+
 
 This dataset is licensed under a https://creativecommons.org/licenses/by/2.0/ license
 
-Available online at http://hdl.handle.net/2292/86
+Source available online at http://hdl.handle.net/2292/86
 
 
 ## CLDF Datasets
@@ -25,4 +27,4 @@ The following CLDF datasets are available in [cldf](cldf):
 
 ## Summary Tree
 
-![summary](./summary_tree.svg)
+![summary](https://raw.githubusercontent.com/phlorest/atkinson2006/main/summary_tree.svg)
