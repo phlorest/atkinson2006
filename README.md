@@ -1,6 +1,7 @@
 # Phlorest phylogeny derived from Atkinson 2006 'From Species to Languages: a phylogenetic approach to human prehistory'
 
 [![CLDF validation](https://github.com/phlorest/atkinson2006/workflows/CLDF-validation/badge.svg)](https://github.com/phlorest/atkinson2006/actions?query=workflow%3ACLDF-validation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8248388.svg)](https://doi.org/10.5281/zenodo.8248388)
 
 ## How to cite
 
