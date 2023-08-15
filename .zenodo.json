@@ -10,6 +10,9 @@
     "communities": [
         {
             "identifier": "dplace"
+        },
+        {
+            "identifier": "phlorest"
         }
     ],
     "creators": [
