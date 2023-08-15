@@ -45,7 +45,7 @@ numpy==1.24.1
 openpyxl==3.1.2
 packaging==23.1
 pandas==2.0.3
-phlorest==1.3.0
+phlorest==1.4.0
 pluggy==1.2.0
 purl==1.6
 pybtex==0.24.0

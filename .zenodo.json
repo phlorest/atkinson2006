@@ -1,20 +1,4 @@
 {
-    "title": "Phlorest phylogeny derived from Atkinson 2006 'From Species to Languages: a phylogenetic approach to human prehistory'",
-    "access_right": "open",
-    "keywords": [
-        "cldf:Generic",
-        "linguistics"
-    ],
-    "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Atkinson, Quentin D. 2006. From Species to Languages: a phylogenetic approach to human prehistory. PhD Thesis, University of Auckland, New Zealand.</p>\n</blockquote>",
-    "communities": [
-        {
-            "identifier": "dplace"
-        },
-        {
-            "identifier": "phlorest"
-        }
-    ],
     "creators": [
         {
             "name": "Quentin D. Atkinson"
@@ -23,7 +7,24 @@
     "contributors": [
         {
             "name": "Simon J. Greenhill",
-            "type": "Other"
+            "type": "Editor"
+        },
+        {
+            "name": "Robert Forkel",
+            "type": "Editor"
         }
-    ]
+    ],
+    "communities": [
+        {
+            "identifier": "phlorest"
+        }
+    ],
+    "title": "Phlorest phylogeny derived from Atkinson 2006 'From Species to Languages: a phylogenetic approach to human prehistory'",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Generic",
+        "linguistics"
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Atkinson, Quentin D. 2006. From Species to Languages: a phylogenetic approach to human prehistory. PhD Thesis, University of Auckland, New Zealand.</p>\n</blockquote>"
 }
