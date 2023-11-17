@@ -16,6 +16,9 @@
     ],
     "communities": [
         {
+            "identifier": "dplace"
+        },
+        {
             "identifier": "phlorest"
         }
     ],
