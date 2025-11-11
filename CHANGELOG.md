@@ -3,4 +3,5 @@
 
 ## [v1.3]
 
-Dataset re-created using Glottolog v5.2 as reference.
+- Dataset re-created using Glottolog v5.2 as reference.
+- Artefacts info added.
