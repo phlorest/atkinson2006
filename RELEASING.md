@@ -6,7 +6,7 @@
   ```
 - Re-create the CLDF dataset:
   ```shell
-  cldfbench makecldf --glottolog-version v4.8 cldfbench_atkinson2006.py --with-zenodo --with-cldfreadme
+  cldfbench makecldf --glottolog-version v5.2 cldfbench_atkinson2006.py --with-zenodo --with-cldfreadme
   ```
 - Make sure the CLDF is valid:
   ```shell
@@ -16,3 +16,26 @@
   ```shell
   cldfbench readme cldfbench_atkinson2006.py
   ```
+- Run Phlorest-specific checks on the data:
+  ```shell
+  phlorest check --with-R cldfbench_atkinson2006.py
+  ```
+- Check whether new files have been generated (and add them if so):
+  ```shell
+  git status
+  ```
+- Figure out the new release tag:
+  ```shell
+  git tag
+  ```
+- Commit and push the release-ready data:
+  ```shell
+  git commit -a -m"release vX.Y"
+  git push origin
+  ```
+- Create the release instruction:
+  ```shell
+  phlorest release cldfbench_atkinson2006.py vX.Y
+  ```
+- Make sure the repository is wired up with Zenodo, and if so run the `gh release` command as
+  given in the output of `phlorest release`.
