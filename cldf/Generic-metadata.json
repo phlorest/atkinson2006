@@ -21,7 +21,7 @@
         {
             "rdf:about": "https://github.com/phlorest/atkinson2006",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.3-5-gc8b515e",
+            "dc:created": "v1.3-6-ge60256d",
             "dc:title": "Repository"
         },
         {
