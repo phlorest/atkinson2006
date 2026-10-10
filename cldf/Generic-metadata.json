@@ -21,20 +21,20 @@
         {
             "rdf:about": "https://github.com/phlorest/atkinson2006",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.2-3-gd96ad62",
+            "dc:created": "v1.3-5-gc8b515e",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v5.2",
+            "dc:created": "v5.3",
             "dc:title": "Glottolog"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.12.3"
+            "dc:description": "3.14.8"
         },
         {
             "dc:title": "python-packages",

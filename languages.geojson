@@ -1,0 +1,479 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.8421,
+          15.5932
+        ]
+      },
+      "properties": {
+        "Name": "Acatec",
+        "Glottocode": "west2635",
+        "Glottolog_Name": "Akateko"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3513,
+          15.073
+        ]
+      },
+      "properties": {
+        "Name": "Achi",
+        "Glottocode": "achi1256",
+        "Glottolog_Name": "Achi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3153,
+          15.3307
+        ]
+      },
+      "properties": {
+        "Name": "Aguacatec",
+        "Glottocode": "agua1252",
+        "Glottolog_Name": "Aguacateco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2869,
+          15.6078
+        ]
+      },
+      "properties": {
+        "Name": "Chicomuceltec",
+        "Glottocode": "chic1271",
+        "Glottolog_Name": "Chicomuceltec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4698,
+          17.4897
+        ]
+      },
+      "properties": {
+        "Name": "Chol",
+        "Glottocode": "chol1282",
+        "Glottolog_Name": "Chol"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7367,
+          18.1713
+        ]
+      },
+      "properties": {
+        "Name": "Chontal",
+        "Glottocode": "taba1266",
+        "Glottolog_Name": "Tabasco Chontal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2363,
+          14.818
+        ]
+      },
+      "properties": {
+        "Name": "Chorti",
+        "Glottocode": "chor1273",
+        "xd_ids": [
+          "xd1319"
+        ],
+        "Glottolog_Name": "Ch'orti'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.768865,
+          18.993121
+        ]
+      },
+      "properties": {
+        "Name": "ClassicMaya",
+        "Glottocode": "epig1241",
+        "Glottolog_Name": "Epigraphic Mayan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.9881,
+          14.4662
+        ]
+      },
+      "properties": {
+        "Name": "ColonialCakchiquel",
+        "Glottocode": "kaqc1270",
+        "Glottolog_Name": "Kaqchikel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.9567,
+          18.7757
+        ]
+      },
+      "properties": {
+        "Name": "ColonialYucatec",
+        "Glottocode": "yuca1254",
+        "Glottolog_Name": "Yucatec Maya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5028,
+          21.6153
+        ]
+      },
+      "properties": {
+        "Name": "Huastec",
+        "Glottocode": "huas1242",
+        "xd_ids": [
+          "xd1297"
+        ],
+        "Glottolog_Name": "Huastec"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8734,
+          17.0269
+        ]
+      },
+      "properties": {
+        "Name": "Itza",
+        "Glottocode": "itza1241",
+        "Glottolog_Name": "Itza'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8935,
+          15.4569
+        ]
+      },
+      "properties": {
+        "Name": "Ixil",
+        "Glottocode": "ixil1251",
+        "Glottolog_Name": "Ixil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6633,
+          15.6609
+        ]
+      },
+      "properties": {
+        "Name": "Jacaltec",
+        "Glottocode": "popt1235",
+        "xd_ids": [
+          "xd1315"
+        ],
+        "Glottolog_Name": "Popti'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3043,
+          15.6846
+        ]
+      },
+      "properties": {
+        "Name": "Kanjobal",
+        "Glottocode": "qanj1241",
+        "Glottolog_Name": "Q'anjob'al"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2452,
+          15.3788
+        ]
+      },
+      "properties": {
+        "Name": "Kekchi",
+        "Glottocode": "kekc1242",
+        "Glottolog_Name": "Q'eqchi'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.42348,
+          17.02093
+        ]
+      },
+      "properties": {
+        "Name": "Lacandon",
+        "Glottocode": "laca1243",
+        "xd_ids": [
+          "xd1310"
+        ],
+        "Glottolog_Name": "Lacandon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7231,
+          14.8034
+        ]
+      },
+      "properties": {
+        "Name": "Mam",
+        "Glottocode": "mamm1241",
+        "xd_ids": [
+          "xd1324"
+        ],
+        "Glottolog_Name": "Mam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0673,
+          16.3533
+        ]
+      },
+      "properties": {
+        "Name": "Mopan",
+        "Glottocode": "mopa1243",
+        "Glottolog_Name": "Mopan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1734,
+          15.4538
+        ]
+      },
+      "properties": {
+        "Name": "Motozintlec",
+        "Glottocode": "moch1257",
+        "Glottolog_Name": "Mocho"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.73796,
+          14.73252
+        ]
+      },
+      "properties": {
+        "Name": "Pocomam",
+        "Glottocode": "poqo1253",
+        "xd_ids": [
+          "xd1317"
+        ],
+        "Glottolog_Name": "Poqomam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5813,
+          15.3586
+        ]
+      },
+      "properties": {
+        "Name": "Pocomchi",
+        "Glottocode": "poqo1254",
+        "Glottolog_Name": "Poqomchi'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.1696,
+          14.5278
+        ]
+      },
+      "properties": {
+        "Name": "Quiche",
+        "Glottocode": "kich1262",
+        "xd_ids": [
+          "xd1313"
+        ],
+        "Glottolog_Name": "K'iche'"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.109,
+          15.274
+        ]
+      },
+      "properties": {
+        "Name": "Sacapultec",
+        "Glottocode": "saca1238",
+        "Glottolog_Name": "Sacapulteco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.7041,
+          15.23054
+        ]
+      },
+      "properties": {
+        "Name": "Sipacapa",
+        "Glottocode": "sipa1247",
+        "Glottolog_Name": "Sipacapense"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1136,
+          15.4599
+        ]
+      },
+      "properties": {
+        "Name": "Teco",
+        "Glottocode": "tekt1235",
+        "Glottolog_Name": "Tektiteko"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.2786,
+          16.6384
+        ]
+      },
+      "properties": {
+        "Name": "Tzeltal",
+        "Glottocode": "tzel1254",
+        "xd_ids": [
+          "xd1318"
+        ],
+        "Glottolog_Name": "Tzeltal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.7388,
+          16.6362
+        ]
+      },
+      "properties": {
+        "Name": "Tzotzil",
+        "Glottocode": "tzot1259",
+        "Glottolog_Name": "Tzotzil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2012,
+          14.6351
+        ]
+      },
+      "properties": {
+        "Name": "Tzutujil",
+        "Glottocode": "tzut1248",
+        "Glottolog_Name": "Tz'utujil"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.8893,
+          15.3648
+        ]
+      },
+      "properties": {
+        "Name": "Uspantec",
+        "Glottocode": "uspa1245",
+        "Glottolog_Name": "Uspanteco"
+      }
+    }
+  ]
+}
